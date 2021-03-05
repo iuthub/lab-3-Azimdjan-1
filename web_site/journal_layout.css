@@ -8,6 +8,7 @@ body{
 .header{
     background-color: white;
     border: 10px white solid;
+    overflow: hidden;
 }
 .header1{
     text-align: right;
@@ -22,6 +23,8 @@ body{
     padding: 5px;
     margin-top: 10px;
     overflow: hidden;
+    width: 75%;
+    float: right;
 }
 #date1, #date2{
     border-bottom: 2px blue dashed;
@@ -31,4 +34,16 @@ body{
 }
 .header3 img{
     float: right;
+}
+.additional_header{
+    background-color: #E8FBFB;
+    margin-top: 10px;
+    margin-right: 10px;
+    float: left;
+    border: 5px blue solid;
+    width: 150px;
+    padding: 10px;
+}
+body *:hover{
+    color: pink;
 }
